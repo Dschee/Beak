@@ -34,7 +34,7 @@ let package = Package(
                 "SwiftCLI",
             ]),
         .testTarget(
-            name: "BeakTests", 
+            name: "BeakTests",
             dependencies: [
                 "BeakCore",
                 "Spectre",
